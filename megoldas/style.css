@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    height:300px;
+    background-image: url(img/banner.jpg);
+   /* background-repeat: no-repeat;
+    background-position: center center;*/
+    background-size: cover;
+   
+}
+h1{
+    font-weight: 750;/*növeljük meg másfélszeresére*/
+    letter-spacing:1rem;
+    font-size:4rem;
+    padding-bottom: 3px;
+    border-bottom:5px dotted white;
+    color:white;
+}
+.container{
+    background-color: rgb(19,76,253,0.3);
+}
+li{
+    list-style-type:square;
+    font-size:1.3rem;
+}
+h2{
+    color:rgb(19,76,253);
+    border-bottom:3px dotted rgb(19,76,253);
+    text-align:center;
+    margin:1rem;
+}
+p{
+    text-align:justify;
+    text-indent:15px;
+}
+.trend{
+    padding:1rem;
+   
+}
+.felsorolas::first-letter{
+    font-weight:bold;
+    font-size:1.3rem;
+}
